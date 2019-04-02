@@ -12,7 +12,7 @@ import Eureka
 open class GenericPasswordCell: _FieldCell<String>, CellType {
 
     @IBOutlet weak var visibilityButton: UIButton?
-    @IBOutlet weak var passwordStrengthView: PasswordStrengthView?
+    @IBOutlet public weak var passwordStrengthView: PasswordStrengthView?
     @IBOutlet public weak var hintLabel: UILabel?
 
     @IBOutlet public weak var leading: NSLayoutConstraint!
